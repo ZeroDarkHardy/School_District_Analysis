@@ -49,7 +49,7 @@ Here we see the following:  The original analysis results for Thomas High School
 ### Math and Reading Scores By Grade
 ![SCORES BY GRADE OLD OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/per_grade_scores_gallery_old.png)
 ![SCORES BY GRADE NEW OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/per_grade_scores_gallery_new.png)
-    - As we can see by comparing the original and new ouputs for the average subject scores by grade, removing the 9th grade THS scores had absolutely no numeric impact on the DataFrames other than to replace the scores with "nan".
+- As we can see by comparing the original and new ouputs for the average subject scores by grade, removing the 9th grade THS scores had absolutely no numeric impact on the DataFrames other than to replace the scores with "nan".
 
 ### Scores by School Spending
 - (ORIGINAL OUTPUT)
@@ -63,4 +63,11 @@ Here we see the following:  The original analysis results for Thomas High School
 ![ORIGINAL SCHOOL SIZE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/size_summary_df_old.png)
 - (RECALCULATED OUTPUT)
 ![UPDATED SCHOOL SIZE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/size_summary_df_new.png)
+    - As with the scores by school spending, the impact of recalculating the student score averages weren't large enough to alter our output, at least to the degree of precision required.
+
+### Scores by School Type
+- (ORIGINAL OUTPUT)
+![ORIGINAL SCHOOL TYPE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/type_summary_df_old.png)
+- (RECALCULATED OUTPUT)
+![UPDATED SCHOOL TYPE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/type_summary_df_new.png)
 
