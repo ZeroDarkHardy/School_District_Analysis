@@ -56,4 +56,11 @@ Here we see the following:  The original analysis results for Thomas High School
 ![SPENDING SCORES ORIGINAL OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/spending_summary_df_old.png)
 - (RECALCULATED OUTPUT)
 ![SPENDING SCORES NEW OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/spending_summary_df_new.png)
+    - The recalculated data shows that the impact of removing the 9th grade THS students wasn't enough to impact the district averages, when the schools are broken down by per-student-capita.
+
+### Scores by School Size
+- (ORIGINAL OUTPUT)
+![ORIGINAL SCHOOL SIZE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/size_summary_df_old.png)
+- (RECALCULATED OUTPUT)
+![UPDATED SCHOOL SIZE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/size_summary_df_new.png)
 
