@@ -47,6 +47,6 @@ Here we see the following:  The original analysis results for Thomas High School
     - While we do see the above mentioned value changes for Thomas High School's grading averages, the changes aren't great enough to unseat THS from second place on the list of the district's top 5 schools.
 
 ### Math and Reading Scores By Grade
-
-
+![SCORES BY GRADE OLD OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/per_grade_scores_gallery_old.png)
+![SCORES BY GRADE NEW OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/per_grade_scores_gallery_new.png)
 
