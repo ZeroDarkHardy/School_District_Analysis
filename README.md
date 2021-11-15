@@ -26,11 +26,24 @@ Potential academic dishonesty was observed within our data sample, neccesitating
     - The percentage of students passing all subjects fell from 65% to 64.9%
 
 ### School Summary (Thomas High School)
+Here we see the following:  The original analysis results for Thomas High School, the ouput of the same code with the 9th graded results replaced with "NaN", and finally the output once those results had been refactored to consider an eligible student count...
 - (ORIGINAL OUTPUT)
 ![ORIGINAL THS SUMMARY](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/ths_summary_old1.png)
 - (OUTPUT AFTER 9TH GRADE RESULTS REPLACED WITH "NaN")
 ![NAN THS SUMMARY](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/ths_summary_old.png)
 - (OUTPUT AFTER RESULTS RE-AVERAGED FOR UPDATED STUDENT COUNT)
 ![NEW THS SUMMARY](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/ths_summary_new.png)
+    - While we see a dramatic (though predictable) swing in average values once the 9th grade test results are initially disqualified, we only see a marginal difference from the original results once the remaining THS grades have been re-averaged.
+    - The average THS math score fell by less than a tenth of a percent, from 83.41 to 83.35
+    - The average THS reading score **increased** from 83.84 to 83.89, though the percentage of students passing reading fell from 97.30% to 97.01%.
+    - The percentage of students passing math fell very slightly, from 93.27% to 93.18%.
+    - In the end, the overall percentage of students passing both subjects at Thomas High School fell from 90.95% to 90.63%.
+
+### How does the recalculation affect Thomas High School's performace, relative to other schools?
+- (TOP SCHOOLS, ORIGINAL OUTPUT)
+![TOP SCHOOLS OLD OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/top_schools_old.png)
+- (TOP SCHOOLS, RECALCULATED OUTPUT)
+![TOP SCHOOLS NEW OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/top_schools_new.png)
+
 
 
