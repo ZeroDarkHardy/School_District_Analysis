@@ -40,10 +40,13 @@ Here we see the following:  The original analysis results for Thomas High School
     - In the end, the overall percentage of students passing both subjects at Thomas High School fell from 90.95% to 90.63%.
 
 ### How does the recalculation affect Thomas High School's performace, relative to other schools?
-- (TOP SCHOOLS, ORIGINAL OUTPUT)
+- (TOP 5 SCHOOLS, ORIGINAL OUTPUT)
 ![TOP SCHOOLS OLD OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/top_schools_old.png)
-- (TOP SCHOOLS, RECALCULATED OUTPUT)
+- (TOP 5 SCHOOLS, RECALCULATED OUTPUT)
 ![TOP SCHOOLS NEW OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/top_schools_new.png)
+    - While we do see the above mentioned value changes for Thomas High School's grading averages, the changes aren't great enough to unseat THS from second place on the list of the district's top 5 schools.
+
+### Math and Reading Scores By Grade
 
 
 
