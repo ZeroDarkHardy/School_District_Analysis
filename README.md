@@ -1,5 +1,12 @@
 # School_District_Analysis
 
+[Project Overview](#project-overview)
+[Resources](#resources)
+[Results](#results)
+[District Summary](#district-summary)
+[School Summary](#school-summary-thomas-high-school)
+[THS vs. Other Schools](#How-does-the-recalculation-affect-Thomas-High-Schools-performance-relative-to-other-schools)
+
 ## Project Overview
 
 ### Given a large amount of student and school related data, we've been tasked with analyzing student grade performace to find if there's any correlation to school funding, school size, or school type (district or charter).  Additionally, in light of potential academic dishonesty in the testing results of a specific group of students (9th graders from Thomas High School), we refactored the parameters of the analysis to make sure that per-student averages weren't unfairly weighted or erroneously skewed.
@@ -39,7 +46,7 @@ Here we see the following:  The original analysis results for Thomas High School
     - The percentage of students passing math fell very slightly, from 93.27% to 93.18%.
     - In the end, the overall percentage of students passing both subjects at Thomas High School fell from 90.95% to 90.63%.
 
-### How does the recalculation affect Thomas High School's performace, relative to other schools?
+### How does the recalculation affect Thomas High School's performance, relative to other schools?
 - (TOP 5 SCHOOLS, ORIGINAL OUTPUT)
 ![TOP SCHOOLS OLD OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/top_schools_old.png)
 - (TOP 5 SCHOOLS, RECALCULATED OUTPUT)
@@ -70,4 +77,7 @@ Here we see the following:  The original analysis results for Thomas High School
 ![ORIGINAL SCHOOL TYPE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/type_summary_df_old.png)
 - (RECALCULATED OUTPUT)
 ![UPDATED SCHOOL TYPE OUTPUT](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/Resources/type_summary_df_new.png)
-
+    - Once more, the dataframes before and after the ommision of 9th grade THS students weren't enough to impact overall district metrics when grouped with other schools of matching type.
+---
+## Summary
+If we had not updated the total student counts for both THS and the district to reflect the disqualified student class, it would have unfairly skewed every metric and brought down averages across the board. After refactoring the code to exclude those students from the total counts, we found that the impact was only really visible at higher degrees of precision.  We saw minor impacts to the math scores, reading scores, and passing percentages within Thomas High School's metrics, but usually usually less than a single unit of measurement, which wasn't enough to impact the district averages on the whole.
