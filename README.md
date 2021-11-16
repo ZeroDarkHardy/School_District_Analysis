@@ -6,11 +6,15 @@
 
 [Results](#results)
 
-[District Summary](#district-summary)
+- [District Summary](#district-summary)
+- [School Summary](#school-summary-thomas-high-school)
+- [THS vs. Other Schools](#How-does-the-recalculation-affect-Thomas-High-Schools-performance-relative-to-other-schools)
+- [Math and Reading Scores by Grade](#math-and-reading-scores-by-grade)
+- [Scores by School Spending](#scores-by-school-spending)
+- [Scores by School Size](#scores-by-school-size)
+- [Scores by School Type](#scores-by-school-type)
 
-[School Summary](#school-summary-thomas-high-school)
-
-[THS vs. Other Schools](#How-does-the-recalculation-affect-Thomas-High-Schools-performance-relative-to-other-schools)
+[Summary](#summary)
 
 ## Project Overview
 
@@ -19,7 +23,7 @@
 ## Resources
 **Source Files:** schools_complete.csv, students_complete.csv
 
-**Python Code (via Jupyter Notebook):** PyCitySchools_Challenge.ipynb, PyCitySchools.ipynb
+**Python Code (via Jupyter Notebook):** [PyCitySchools_Challenge.ipynb](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb), [PyCitySchools.ipynb](https://github.com/ZeroDarkHardy/School_District_Analysis/blob/main/PyCitySchools.ipynb)
 
 **Software:** Python 3.7.10, Anaconda, Jupyter Notebook, Visual Studio Code 1.62.1
 
