@@ -1,10 +1,15 @@
 # School_District_Analysis
 
 [Project Overview](#project-overview)
+
 [Resources](#resources)
+
 [Results](#results)
+
 [District Summary](#district-summary)
+
 [School Summary](#school-summary-thomas-high-school)
+
 [THS vs. Other Schools](#How-does-the-recalculation-affect-Thomas-High-Schools-performance-relative-to-other-schools)
 
 ## Project Overview
